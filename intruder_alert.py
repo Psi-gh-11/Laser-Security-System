@@ -18,9 +18,9 @@ except serial.SerialException as e:
 # 📧 Email Configuration
 SMTP_SERVER = "smtp.gmail.com" 
 SMTP_PORT = 587
-EMAIL_SENDER = "intruder.alert.sender@gmail.com"
-EMAIL_PASSWORD = "ojtxjdmlnhcguhmi"
-EMAIL_RECEIVER = "intruder.alert.receiver@gmail.com"
+EMAIL_SENDER = "sender_email"
+EMAIL_PASSWORD = "your_paasword"
+EMAIL_RECEIVER = "receiver_email"
 
 # 📂 Function to Log Intrusion Events
 def log_intrusion():
